@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="slider-wrapper">
+        <div class="container-img"> 
+          <button class="next buttom-1" onclick="goPrev()"> < </button>
+          <button class="prev buttom-2" onclick="goNext()"> > </button>
+          <img class="block-img" src="https://ik.imagekit.io/ikmedia/backlit.jpg" id="main-img"> 
+        </div>
+         
+        <div class="dot-wrapper">
+            <button id="dot1" class="dot-btn active" onclick="changeImg('air-balloon')"></button>
+            <button id="dot2" class="dot-btn" onclick="changeImg('sundown')"></button>
+            <button id="dot3" class="dot-btn" onclick="changeImg('lake')"></button>
+            <button id="dot4" class="dot-btn" onclick="changeImg('mountains')" ></button>
+            <button id="dot5" class="dot-btn" onclick="changeImg('landscape')"></button>
+        </div>
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>
